@@ -45,5 +45,8 @@ body{
     border-radius: 50%;
     width: 41px;
     height: 41px;
-    transform: translateY(-20px);
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

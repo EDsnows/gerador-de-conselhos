@@ -15,7 +15,7 @@
         font-size: 25px;
     }
 
-    button{
+    button.advice-update{
         width: 50px;
         height: 50px;
         transform: translateY(-25px);
@@ -25,12 +25,13 @@
         transform: scale(1.1)
     }
 }
+
 @media (max-width: 375px) {
     .card-principal{
         transform: scale(0.8)
     }
 
-    button{
+    button.advice-update{
         transform: translateY(-59px);
     }
 }
